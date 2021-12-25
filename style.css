@@ -1,0 +1,33 @@
+.main {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 50%;
+    top: 150px;
+    margin-left: -275px;
+    background: whitesmoke;
+}
+
+.refresh_button {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 50%;
+    margin-left: -50px;
+    top: 50px; 
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 125px);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.hole {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    background: rgb(208, 176, 230);
+}
